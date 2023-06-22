@@ -2,9 +2,10 @@
   "name": "api",
   "version": "1.0.0",
   "description": "API para gerenciamento de sistema de condominio",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ."
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/GabiZacalusni/api-nodejs-condominio/issues"
   },
-  "homepage": "https://github.com/GabiZacalusni/api-nodejs-condominio#readme"
+  "homepage": "https://github.com/GabiZacalusni/api-nodejs-condominio#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.3.1",
+    "nodemon": "^2.0.22"
+  }
 }
